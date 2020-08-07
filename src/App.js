@@ -10,7 +10,7 @@ import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
 
-class App extends React.Component {
+class App extends Component {
 
     constructor(props) {
       super(props)

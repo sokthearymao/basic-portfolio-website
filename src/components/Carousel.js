@@ -8,7 +8,7 @@ import devgrub from '../assets/images/devgrub.png'
 import youtube from '../assets/images/youtube.png'
 import evverest from '../assets/images/evverest.png'
 
-class Carousel extends React.Component {
+class Carousel extends Component {
 
     constructor(props) {
         super(props)
@@ -46,7 +46,7 @@ class Carousel extends React.Component {
 handleCardClick = (id, card) => {
     console.log(id)
 
-    let items = [... this.state.items]
+    let items = [...this.state.items]
 
     items[id].selected = items[id].selected ? false : true
 
